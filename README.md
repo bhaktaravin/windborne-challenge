@@ -14,4 +14,5 @@ Minimal dependencies and a focused, readable structure
 
 Why this approach
 
-Submitting data through a Server Action keeps API logic on the server, avoids exposing implementation details to the client, and allows the UI to remain responsive, accessible, and easy to reason ab
+Submitting data through a Server Action keeps API logic on the server, avoids exposing implementation details to the client, and allows the UI to remain responsive, accessible, and easy to reason
+
