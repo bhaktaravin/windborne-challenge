@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { submitApplication } from './actions/submit-application';
 
 function SubmitButton() {
@@ -14,7 +15,7 @@ function SubmitButton() {
 }
 
 export default function Home() {
-  const [state, formAction] = useFormState(submitApplication, null);
+  const [state, formAction] = useActionState(submitApplication, null);
 
   return (
     <main className="container">
